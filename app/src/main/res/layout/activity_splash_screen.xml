@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/car"
+    tools:context=".SplashScreen">
+
+  <!-- <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="147dp"
+        android:elevation="7dp"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/logo" />
+
+    </androidx.cardview.widget.CardView> -->
+
+
+  <!-- app:layout_constraintTop_toBottomOf="@+id/cardView" /> -->
+
+
+  <TextView
+      android:id="@+id/textView"
+      android:layout_width="340dp"
+      android:layout_height="73dp"
+      android:layout_marginLeft="15dp"
+      android:fontFamily="sans-serif-black"
+      android:text="Hello ,Welcome to Car Mate"
+      android:textAlignment="gravity"
+      android:textColor="#403434"
+      android:textSize="29sp"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.793"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.054" />
+
+  <TextView
+      android:id="@+id/textView2"
+      android:layout_width="333dp"
+      android:layout_height="254dp"
+      android:layout_marginLeft="15dp"
+      android:fontFamily="@font/nonitalic"
+      android:gravity="center"
+      android:text=" Dive into a world where convenience meets choice, where finding your dream car is just a click away. With Car mate, explore a vast array of vehicles from the comfort of your own screen. From sleek sedans to rugged SUVs, from eco-friendly hybrids to high-performance sports cars,  discover the perfect match for your lifestyle. Whether you're a seasoned car enthusiast or a first-time buyer, Car mate is here to guide you through every step of the journey. Start exploring now and archive your automotive dreams ."
+      android:textAlignment="textStart"
+      android:textColor="#101010"
+      android:textSize="15sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textView"
+      app:layout_constraintVertical_bias="0.002" />
+
+  <Button
+      android:id="@+id/button"
+      android:layout_width="159dp"
+      android:layout_height="46dp"
+      android:backgroundTint="@color/blue"
+      android:fontFamily="@font/nonitalic"
+      android:text="Get Started"
+      android:textSize="16sp"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.194"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textView2"
+      app:layout_constraintVertical_bias="0.0" />
+
+  <!-- <com.airbnb.lottie.LottieAnimationView
+       android:id="@+id/lottieAnimationView2"
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:layout_marginBottom="72dp"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:lottie_autoPlay="true"
+       app:lottie_loop="true"
+       app:lottie_rawRes="@raw/loading"
+       tools:layout_editor_absoluteX="0dp" /> -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "924183950370",
+    "project_id": "car-mate-2307f",
+    "storage_bucket": "car-mate-2307f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924183950370:android:cfdc032ff98c2bf754467b",
+        "android_client_info": {
+          "package_name": "com.example.carmate"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQp7zUS6fOhFKQkZCYQ0TtefpxRxtzKqo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

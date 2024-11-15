@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navCar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Add car"
+        android:icon="@drawable/document"/>
+    <item
+        android:id="@+id/navUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Users"
+        android:visible="false"
+        android:icon="@drawable/users"/>
+    <item
+        android:id="@+id/navFeedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Feedback"
+        android:icon="@drawable/feedback"/>
+</menu>
